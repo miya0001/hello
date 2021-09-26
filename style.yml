@@ -1,4 +1,5 @@
----
+$background: "#ff0000"
+
 version: 8
 name: Geolonia Basic
 metadata: {}
@@ -19,7 +20,7 @@ layers:
 - id: background
   type: background
   paint:
-    background-color: rgba(254, 254, 254, 1)
+    background-color: $background
 - id: landcover-grass
   type: fill
   source: geolonia
